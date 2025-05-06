@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(imges/photo-1.jpg);
+    background-position: center;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 5s ease;
+    animation: bgchange 10s infinite;
+}
+    @keyframes bgchange {
+        10% {background-image: url("imges/empty1.jpg");}
+        30% {background-image: url("imges/young.jpg");}
+        40% {background-image: url("imges/rom.png");}
+        60% {background-image: url("imges/rom2.png");}
+        80% {background-image: url("imges/istockphoto-1299619779-612x612.jpg");}
+        100% {background-image: url("imges/bestromm.png.JPEG");}
+    }
+img{
+    width: 80px;
+    height: 50px;
+    display: flex; 
+}
+.ih {
+    display: flex;
+    align-items: center;
+    right: 20;
+}
+li{
+    padding: 10px;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 202, 19);
+    padding: 2px;
+    
+}
+.linef{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(34, 202, 19);
+    padding: 20px;
+    transition: 1s ease;
+}
+a:hover{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    margin-top: 350px;
+    font-size: 50px;
+    font-weight: normal;
+}
+p{
+    text-align: center;
+    color: rgb(63, 59, 59);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.our{
+    background-color: rgb(9, 54, 9);
+    width: 50px;
+}
+.contact{
+    background-color: greenyellow;
+}
+.our:hover{
+    background-color: rgb(9, 54, 9);
+    width: 50px;
+}
+.contact:hover{
+    background-color: greenyellow;
+}
+
+
